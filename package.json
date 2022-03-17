@@ -1,0 +1,24 @@
+{
+  "name": "sasss",
+  "version": "1.0.0",
+  "description": "learing saa",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "\u001b[Cjjjjjjjj"
+  ],
+  "author": "bappy",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "autoprefixer": "^10.4.2",
+    "bootstrap": "^5.1.3",
+    "postcss": "^8.4.7",
+    "postcss-cli": "^9.1.0"
+  }
+}
