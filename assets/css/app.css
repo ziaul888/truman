@@ -11735,42 +11735,6 @@ footer .footer-container .footer-list .nav-list a {
  * 
  * 
 */
-@media (max-width: 1600px) {
-  .top-navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .top-navbar .navbar-nav .nav-link {
-    font-size: 18px;
-  }
-
-  .hero-sec .content .title {
-    font-size: 60px;
-    margin-bottom: 22px;
-  }
-  .hero-sec .content .text {
-    font-size: 20px;
-    margin-bottom: 50px;
-  }
-  .hero-sec .content .protal-btn .contact-btn,
-.hero-sec .content .protal-btn .btn-protal {
-    font-size: 18px;
-  }
-  .hero-sec .feature .icon-container {
-    gap: 30px;
-    padding-right: 4%;
-  }
-  .hero-sec .feature .icon-container .icon .text {
-    font-size: 14px;
-    margin-top: 14px;
-  }
-
-  .sueccs-sec .sueccs-contant {
-    gap: 20px;
-    padding-bottom: 150px;
-    padding-top: 150px;
-  }
-}
 @media (max-width: 1199px) {
   .top-navbar .navbar-brand {
     max-width: 230px;
@@ -11803,22 +11767,56 @@ footer .footer-container .footer-list .nav-list a {
   .hero-sec .content {
     height: auto;
     margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 500px;
   }
   .hero-sec .content .title {
     font-size: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
   }
   .hero-sec .content .text {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
+    text-align: center;
+  }
+  .hero-sec .feature .icon-container {
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media (max-width: 767px) {
+  .hero-sec {
+    padding-top: 20px;
+  }
+  .hero-sec .content {
+    margin-bottom: 40px;
+  }
+  .hero-sec .content .title {
+    text-align: center;
+    font-size: 28px;
+  }
+  .hero-sec .content .text {
+    font-size: 16px;
+  }
+  .hero-sec .content .protal-btn {
+    justify-content: center;
+  }
+  .hero-sec .content .protal-btn .contact-btn,
+.hero-sec .content .protal-btn .btn-protal {
+    font-size: 16px;
+  }
+  .hero-sec .img-sec {
+    width: 50%;
+  }
+  .hero-sec .feature .icon-container {
+    gap: 20px;
+    padding-top: 40px;
+  }
+
   .sueccs-sec .sueccs-contant {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr, 1fr;
     padding-bottom: 50px;
     padding-top: 50px;
   }
@@ -11826,7 +11824,7 @@ footer .footer-container .footer-list .nav-list a {
     min-width: 100%;
   }
   .sueccs-sec .sueccs-contant .sueccss-title h1, .sueccs-sec .sueccs-contant .sueccss-title .h1 {
-    font-size: 22px;
+    font-size: 26px;
   }
   .sueccs-sec .sueccs-contant .sueccss-title h1 .title-text, .sueccs-sec .sueccs-contant .sueccss-title .h1 .title-text {
     font-size: 28px;
@@ -11834,6 +11832,43 @@ footer .footer-container .footer-list .nav-list a {
   .sueccs-sec .sueccs-contant .text-contant p {
     font-size: 16px;
     text-align: center;
+  }
+
+  .Housing-Caretaker-sec {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .Housing-Caretaker-sec .Caretaker-contant .Caretaker-title {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+  .Housing-Caretaker-sec .Caretaker-contant .Caretaker-text {
+    font-size: 16px;
+  }
+
+  .slider-sec .text-contant {
+    font-size: 22px;
+    max-width: 370px;
+  }
+  .slider-sec .slider-container {
+    margin-top: -17px;
+    width: 90%;
+  }
+  .slider-sec .slider-container .swiper-wrapper .feature-slide {
+    gap: 30px;
+    padding: 40px;
+  }
+  .slider-sec .slider-container .swiper-wrapper .feature-slide .icon-block {
+    max-width: 75%;
+  }
+  .slider-sec .slider-container .swiper-wrapper .feature-slide .icon-block img {
+    width: 100%;
+  }
+  .slider-sec .slider-container .swiper-wrapper .feature-slide .text-block .lbl {
+    font-size: 18px;
+  }
+  .slider-sec .slider-container .swiper-wrapper .feature-slide .text-block .text {
+    font-size: 16px;
   }
 
   .property-sec {
@@ -11848,6 +11883,42 @@ footer .footer-container .footer-list .nav-list a {
   }
   .property-sec .title-block br:nth-child(odd) {
     display: none;
+  }
+  .property-sec .dd-block {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .property-sec .dd-block .dd-title .lbl {
+    font-size: 18px;
+  }
+  .property-sec .dd-block .dd-title .icon svg {
+    height: 9px;
+    width: 15px;
+  }
+  .property-sec .dd-block .dd-box {
+    padding-top: 16px;
+  }
+  .property-sec .dd-block .dd-box .text {
+    font-size: 16px;
+  }
+  .property-sec .dd-block .dd-box .point-list {
+    padding-top: 10px li;
+    padding-top-padding-left: 35px;
+  }
+
+  .contact-sec {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .contact-sec .info-block h3, .contact-sec .info-block .h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .contact-sec .form-block {
+    max-width: 385px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   footer .footer-container {
